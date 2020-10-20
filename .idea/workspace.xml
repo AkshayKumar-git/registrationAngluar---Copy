@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b83208ad-2418-4f53-9e48-88c0ecca7280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/registration/src/assets/default-dp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/registration/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/registration/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration/src/environments/environment.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/registration" />
+  </component>
+  <component name="ProjectId" id="1ip5zOPiZLO5Gx0qRhcKdiDlRm5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\registrationAngluar\registration\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\registrationAngluar\registration\src\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b83208ad-2418-4f53-9e48-88c0ecca7280" name="Default Changelist" comment="" />
+      <created>1602591954708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602591954708</updated>
+      <workItem from="1602591955741" duration="34444000" />
+      <workItem from="1602744173549" duration="3517000" />
+      <workItem from="1602759015661" duration="819000" />
+      <workItem from="1602759847299" duration="40898000" />
+      <workItem from="1602913544241" duration="25342000" />
+      <workItem from="1603102218237" duration="43000" />
+      <workItem from="1603118443104" duration="2894000" />
+      <workItem from="1603187706197" duration="4000" />
+      <workItem from="1603189515190" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603189531731">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1603189531731" />
+    <state x="0" y="0" width="1201" height="597" key="dock-window-1" timestamp="1602596595577">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" width="1201" height="597" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1602596595577" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1603086251724">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1603086251724" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1602930129690">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602930129690" />
+  </component>
+</project>

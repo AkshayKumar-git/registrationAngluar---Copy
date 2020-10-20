@@ -1,0 +1,116 @@
+<style>
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+
+  .card.highlight-card {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+  .card.card.highlight-card span {
+    align-content: center;
+  }
+</style>
+
+<!-- Highlight Card -->
+<div class="card highlight-card card-small">
+  <span>REGISTRATION FORM</span>
+</div>
+
+
+
+<form [formGroup]="registrationForm" (ngSubmit)="submit()" enctype='multipart/form-data'>
+  <table>
+
+    <tr>
+      <td><label >FullName</label></td>
+      <td><label > : </label></td>
+      <td><input type="text" name="user_fullname" formControlName="user_fullname"/>
+        <div *ngIf="registrationForm.controls['user_fullname'].invalid && registrationForm.controls['user_fullname'].errors.required && formValidation">Please enter name.</div>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td><label >Email</label></td>
+      <td><label > : </label></td>
+      <td><input type="text" name="user_name" formControlName="user_name"/>
+        <div *ngIf="registrationForm.controls['user_name'].invalid && registrationForm.controls['user_name'].errors.required && formValidation">Please enter valid email.</div>
+        </td>
+    </tr>
+
+    <tr>
+      <td><label >Password</label></td>
+      <td><label > : </label></td>
+      <td><input type="password"  name="user_password" formControlName="user_password"/>
+        <div *ngIf="registrationForm.controls['user_password'].invalid && registrationForm.controls['user_password'].errors.required && formValidation">Please enter valid password.</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label >Conform Password</label></td>
+      <td><label > : </label></td>
+      <td><input type="password"  name="user_conformpassword" formControlName="user_conformpassword"/>
+   <!--   <div *ngIf="registrationForm.controls['user_conformpassword'].invalid && registrationForm.controls['user_conformpassword'].errors.required && formValidation && registrationForm.controls['user_password'].value!==registrationForm.controls['user_conformPassword'].value">Please enter valid password.</div>  -->
+        <div *ngIf="passwordMatch"> password dont match.</div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><label >Profile Picture</label></td>
+      <td><label > : </label></td>
+      <td><input type="file"  name="upload" formControlName="upload"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3"><button type="button" (click)="submit()" >submit</button></td>
+    </tr>
+
+    <tr>
+      <td colspan="3"><a routerLink="/login" >back to login</a></td>
+    </tr>
+
+  </table>
+</form>
